@@ -1,4 +1,4 @@
-v1.0.36 - Private updater test
+v1.0.37 - Private updater test
 
 Adds a signed launcher update check, confirmation prompt, verified package
 download and automatic installer handoff. A separate worker waits for the
@@ -9,5 +9,15 @@ Includes the single-button Steam Play and borderless settings and the
 "made by itsnotbloodborne" installer tag.
 
 Combat runtime is unchanged from v1.0.32.
+Corrects the installer module path when launched from a PowerShell 7 environment.
+The initial v1.0.36 draft failed that handoff test and remains unpublished.
+
+Validation: downloaded the private assets from GitHub using maintainer
+authentication, then upgraded an isolated 1.0.35 fixture seeded with the
+update-capable launcher to 1.0.37 through the actual worker and installer.
+Signature/tamper checks, declined/current/offline cases, ZIP traversal
+rejection, Steam arguments, network/display settings and shortcut checks passed.
+The test supplies the private downloaded bytes to the update-check routine;
+it does not certify anonymous GitHub access or the final game relaunch.
 Private GitHub downloads require maintainer authentication during testing;
 no credentials are shipped to players.
