@@ -35,11 +35,11 @@ The rollback launcher checks for a newer version before starting the game. When 
 
 The goal is for playing with rollback to feel as seamless as playing the game normally. You may experience an occasional crash, but overall, you should have a very smooth time playing.
 
-We've spent a lot of time stress-testing under deliberately poor network conditions, including added latency, jitter, and packet loss. No connection is identical, so reports from your matches help us keep improving it.
+We've spent a lot of time stress-testing under deliberately poor network conditions- however, no connection is identical, so reports from your matches help us keep improving it.
 
 If you get a crash, please open the installer and use **Export Logs**. The ZIP should appear on your desktop. Share it in the project's Discord with a short description of what happened, which match mode you were using, and whether one or both players crashed.
 
-The Discord invite will be added here when it's ready.
+https://discord.gg/kwSCTgxpe
 
 ## Thank You
 
