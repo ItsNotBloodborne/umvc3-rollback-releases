@@ -1,3 +1,18 @@
+v1.0.49 - Installer settings cleanup
+
+Removes the stick-threshold control and its instructions. The launcher ignores
+previously saved sensitivity settings and inherited sensitivity overrides,
+so controller directions use the game's normal thresholds after updating.
+Steam Play, borderless display and V-sync controls remain available.
+
+Combat runtime and bootstrap are byte-for-byte identical to local v1.0.48.
+No experimental stick-angle hooks are included.
+
+Validation: launcher settings regression checks, installer controls/layout,
+ZIP file hashes and v1.0.48 runtime comparison passed. No new online gameplay
+validation was performed for this installer/launcher-only change.
+
+Previous release notes:
 v1.0.41 - Controller-state preservation test candidate
 
 Preserves live physical input state across combat rewinds while retaining
