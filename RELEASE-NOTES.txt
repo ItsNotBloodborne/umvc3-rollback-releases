@@ -1,0 +1,13 @@
+v1.0.36 - Private updater test
+
+Adds a signed launcher update check, confirmation prompt, verified package
+download and automatic installer handoff. A separate worker waits for the
+launcher to exit before replacing it. Installation preserves game settings,
+network settings, desktop shortcut and Steam Play configuration.
+
+Includes the single-button Steam Play and borderless settings and the
+"made by itsnotbloodborne" installer tag.
+
+Combat runtime is unchanged from v1.0.32.
+Private GitHub downloads require maintainer authentication during testing;
+no credentials are shipped to players.

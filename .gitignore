@@ -1,0 +1,6 @@
+*.zip
+*.dpapi
+*.pfx
+*.pem
+private-key*
+artifacts/
