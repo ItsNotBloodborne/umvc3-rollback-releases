@@ -1,3 +1,19 @@
+v1.0.41 - Controller-state preservation test candidate
+
+Preserves live physical input state across combat rewinds while retaining
+recorded combat inputs for replay. Audio protection and input-delay policy
+are unchanged. Includes the existing installer, icons and signed updater.
+
+Validation: focused input/replay fixtures passed. Two isolated game instances
+ran combat with 100 ms simulated lag, 40 ms jitter and 5 percent loss; movement
+and attacks registered, with matching health/meter across 241 confirmed frames.
+No crash or rollback shutdown was recorded during that exercise.
+
+The reported severe controller delay has not been reproduced and confirmed
+fixed. Timing spikes remain; this is not a repeated-match stability guarantee.
+Both players should install the same version.
+
+Previous release notes:
 v1.0.37 - Private updater test
 
 Adds a signed launcher update check, confirmation prompt, verified package
