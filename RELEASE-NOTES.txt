@@ -1,54 +1,10 @@
-v1.0.49 - Installer settings cleanup
+UMVC3 Steam Rollback v3.0.0
 
-Removes the stick-threshold control and its instructions. The launcher ignores
-previously saved sensitivity settings and inherited sensitivity overrides,
-so controller directions use the game's normal thresholds after updating.
-Steam Play, borderless display and V-sync controls remain available.
+V3 replaces the rollback implementation while retaining the existing Steam integration and installer.
+Install the same version on every participating PC.
 
-Combat runtime and bootstrap are byte-for-byte identical to local v1.0.48.
-No experimental stick-angle hooks are included.
+Validation: the final gameplay build completed a paired local-simulator fight under 100 ms simulated lag, 40 ms jitter and 5% packet loss, with matching end frames and winner. A preceding build also completed a same-lobby rematch. Final packaging changes retire diagnostics and comments only.
 
-Validation: launcher settings regression checks, installer controls/layout,
-ZIP file hashes and v1.0.48 runtime comparison passed. No new online gameplay
-validation was performed for this installer/launcher-only change.
+This is not a new eight-PC Internet validation or a guarantee of identical V1 performance. Please report issues using Export Logs in settings.
 
-Previous release notes:
-v1.0.41 - Controller-state preservation test candidate
-
-Preserves live physical input state across combat rewinds while retaining
-recorded combat inputs for replay. Audio protection and input-delay policy
-are unchanged. Includes the existing installer, icons and signed updater.
-
-Validation: focused input/replay fixtures passed. Two isolated game instances
-ran combat with 100 ms simulated lag, 40 ms jitter and 5 percent loss; movement
-and attacks registered, with matching health/meter across 241 confirmed frames.
-No crash or rollback shutdown was recorded during that exercise.
-
-The reported severe controller delay has not been reproduced and confirmed
-fixed. Timing spikes remain; this is not a repeated-match stability guarantee.
-Both players should install the same version.
-
-Previous release notes:
-v1.0.37 - Private updater test
-
-Adds a signed launcher update check, confirmation prompt, verified package
-download and automatic installer handoff. A separate worker waits for the
-launcher to exit before replacing it. Installation preserves game settings,
-network settings, desktop shortcut and Steam Play configuration.
-
-Includes the single-button Steam Play and borderless settings and the
-"made by itsnotbloodborne" installer tag.
-
-Combat runtime is unchanged from v1.0.32.
-Corrects the installer module path when launched from a PowerShell 7 environment.
-The initial v1.0.36 draft failed that handoff test and remains unpublished.
-
-Validation: downloaded the private assets from GitHub using maintainer
-authentication, then upgraded an isolated 1.0.35 fixture seeded with the
-update-capable launcher to 1.0.37 through the actual worker and installer.
-Signature/tamper checks, declined/current/offline cases, ZIP traversal
-rejection, Steam arguments, network/display settings and shortcut checks passed.
-The test supplies the private downloaded bytes to the update-check routine;
-it does not certify anonymous GitHub access or the final game relaunch.
-Private GitHub downloads require maintainer authentication during testing;
-no credentials are shipped to players.
+The package retains MinHook and Microsoft Detours notices. No retail game files or private runtime source are included.
