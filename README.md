@@ -25,13 +25,13 @@ Use the normal Steam invitations or the in-game search. Everyone playing togethe
 2. Open `Umvc3RollbackSetup.exe`, select your UMVC3 installation, and click **Install / Update**.
 3. Launch using the **UMVC3 Rollback** shortcut added to your desktop, or run `Umvc3Rollback.exe` in your game folder.
 
-Want Steam to launch rollback whenever you press Play? Select **Rollback** under **Steam Play launches** in the installer. If Steam is running, the installer will ask to close it and reopen it afterward. Select **Vanilla** to switch back. Display mode and V-sync have their own settings below.
+Want Steam to launch rollback whenever you press Play? Select **Rollback** under **Steam Play launches** in the installer. If Steam is running, the installer will ask to close it and reopen it afterward. Select **Vanilla** to switch back. 
+
+Borderless Window Display mode and V-sync have their own settings for you to toggle between.
 
 **Axis threshold (up): Default / Small.** Brings controller directionality inputs closer to Playstation's defaults. Small halves the upward left-stick travel needed for Up and up-diagonal inputs; Default preserves normal behavior. Restart the game after changing it.
 
 ## Updates
-
-**Moving from a previous preview (1.0.x or 3.x)?** Download and install this v1.0 release manually once. Future updates from this release will use the automatic updater.
 
 The rollback launcher checks for a newer version before starting the game. When an update is available, it asks whether you'd like to install it. Choose Yes to download the update, run the installer automatically, and relaunch. I recommend keeping it up to date.
 
