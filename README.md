@@ -51,5 +51,5 @@ https://discord.gg/kwSCTgxpe
 Marvel rollback is now in your hands, and I couldn't be happier. I hope you get as many hours of yelling at your friends as we did, without being able to complain about the lag.
 
 Thank you. If you'd like to support this project:
-
-[Support itsnotbloodborne on Ko-fi](https://ko-fi.com/itsnotbloodborne)
+(https://ko-fi.com/itsnotbloodborne) 
+(https://www.patreon.com/cw/ItsNotBloodborne)
