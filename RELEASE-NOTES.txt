@@ -1,10 +1,9 @@
-UMVC3 Steam Rollback v3.0.0
+UMVC3 Steam Rollback v3.0.1
 
-V3 replaces the rollback implementation while retaining the existing Steam integration and installer.
-Install the same version on every participating PC.
+Fixes a startup crash on PCs whose graphics drivers report more display modes than the game's 256-entry list can hold. The launcher could report "The game exited before rollback initialization."
 
-Validation: the final gameplay build completed a paired local-simulator fight under 100 ms simulated lag, 40 ms jitter and 5% packet loss, with matching end frames and winner. A preceding build also completed a same-lobby rematch. Final packaging changes retire diagnostics and comments only.
+The update limits the game's display-mode enumeration to its capacity. On unusually long lists, later display modes may not appear in the game's display options. Combat, inputs, Steam matchmaking, and rollback behavior are unchanged.
 
-This is not a new eight-PC Internet validation or a guarantee of identical V1 performance. Please report issues using Export Logs in settings.
+Validation: build and regression tests passed for display-list boundary cases and drivers reporting 402 and 1,000 modes. Package checksums verified. Successful launch on the reporting friend's PC still needs confirmation.
 
-The package retains MinHook and Microsoft Detours notices. No retail game files or private runtime source are included.
+Extract the ZIP and run Umvc3RollbackSetup.exe, or accept the launcher update. Install the same version on participating PCs. MinHook and Microsoft Detours notices remain included. No retail game files or private runtime source are included.

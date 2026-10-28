@@ -19,7 +19,7 @@ Use the normal Steam invitations or the in-game search. Everyone playing togethe
 
 ## Installation
 
-**[Download UMVC3 Steam Rollback](https://github.com/ItsNotBloodborne/umvc3-rollback-releases/releases/download/v3.0.0/UMVC3-Rollback-v3.0.0.zip)**
+**[Download UMVC3 Steam Rollback](https://github.com/ItsNotBloodborne/umvc3-rollback-releases/releases/download/v3.0.1/UMVC3-Rollback-v3.0.1.zip)**
 
 1. Click the download link above and extract the ZIP.
 2. Open `Umvc3RollbackSetup.exe`, select your UMVC3 installation, and click **Install / Update**.
