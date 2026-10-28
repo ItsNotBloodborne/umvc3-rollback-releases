@@ -1,11 +1,11 @@
 # UMVC3 STEAM ROLLBACK
 **made by itsnotbloodborne**
 
-I love Marvel. I think it's the best fighting game ever made, and so do my friends. Unfortunately, we're separated by an entire continent. Marvel for us was simply unplayable.
+I love Marvel, and so do my friends. Unfortunately, we're separated by an entire continent, so Marvel for us was simply unplayable.
 
-It bothered me so much that I've committed roughly $1,000 of my own money and several hundred hours of cumulative time between development, iteration, playtesting, and the help of my friends to bring seamless rollback to the game while preserving the ease of playing through Steam.
+It bothered me so much that I've committed thousands of dollars of my own money and several hundred hours of cumulative time between development, iteration, playtesting, and the help of my friends to bring seamless rollback to the game while preserving the ease of playing through Steam.
 
-I proudly present **Ultimate Marvel vs. Capcom 3 - Steam Rollback**.
+We proudly present **Ultimate Marvel vs. Capcom 3 - Steam Rollback**.
 
 ## Play Marvel Through Steam
 
