@@ -1,9 +1,13 @@
-UMVC3 Steam Rollback v3.0.1
+UMVC3 Steam Rollback v1.0
+made by itsnotbloodborne
 
-Fixes a startup crash on PCs whose graphics drivers report more display modes than the game's 256-entry list can hold. The launcher could report "The game exited before rollback initialization."
+Play through normal Steam matchmaking, Player Matches, invitations and lobbies with compatible mod users.
 
-The update limits the game's display-mode enumeration to its capacity. On unusually long lists, later display modes may not appear in the game's display options. Combat, inputs, Steam matchmaking, and rollback behavior are unchanged.
+Includes the startup display-list overflow fix, Borderless and V-sync options, and the optional Axis threshold (up): Default / Small setting.
 
-Validation: build and regression tests passed for display-list boundary cases and drivers reporting 402 and 1,000 modes. Package checksums verified. Successful launch on the reporting friend's PC still needs confirmation.
+Axis threshold: Brings controller directionality inputs closer to Playstation's defaults. Small halves the upward left-stick travel needed for Up and up-diagonal; Default keeps stock behavior. Restart the game after changing it.
 
-Extract the ZIP and run Umvc3RollbackSetup.exe, or accept the launcher update. Install the same version on participating PCs. MinHook and Microsoft Detours notices remain included. No retail game files or private runtime source are included.
+Install: extract the ZIP, open Umvc3RollbackSetup.exe, and click Install / Update.
+Previous previews numbered 1.0.x or 3.x require this one-time manual installation because the release numbering has restarted at v1.0. Future updates from this release use the signed automatic updater.
+
+This is the current build previously packaged as v3.0.2, with release naming and descriptions updated. Gameplay is unchanged. Prior releases are archived locally and removed from GitHub. Required third-party notices remain in licenses.
